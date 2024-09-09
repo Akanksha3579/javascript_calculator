@@ -1,0 +1,23 @@
+h1{ 
+    flex: auto;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 143px;
+}
+button{
+    width: 150px;
+}
+html{
+    height: 100%;
+    background: linear-gradient(white,blue);
+}
+p{
+    color: white;
+}

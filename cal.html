@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+    <div>
+        <div class="title-selector">
+            <h1>Lets calculate some Numbers!</h1>
+            <hr />
+          
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2">Enter Numbers Below </th>
+            </tr>
+            <tr>
+                <td><input type="number" name="number1" id="number1"></td>
+                <td><input type="number" name="number2" id="number2"></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add()">+</button></td>
+                <td><button type="button" onclick="minus()">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="multiply()">*</button></td>
+                <td><button type="button" onclick="divide()">/</button></td>
+            </tr>
+            <tr><td colspan="2"><p id="result">Result=</p></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script src="cal.js"></script>
+</body>
+</html>
